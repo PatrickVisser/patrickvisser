@@ -39,8 +39,8 @@ secField = new ImageView ({
 	"image": "images/secfield.png",
 		x: 122,
 		y: 130,
-		width: 396,
-		height: 84,
+		width: 398,
+		height: 86,
 		opacity: 0
 });	
 
@@ -48,8 +48,8 @@ pwdField = new ImageView ({
 	"image": "images/pwdfield.png",
 		x: 122,
 		y: 130,
-		width: 396,
-		height: 84,
+		width: 398,
+		height: 86,
 		opacity: 0
 });	
 
@@ -57,8 +57,8 @@ cardfield = new ImageView ({
 	"image": "images/cardfield.png",
 		x: 122,
 		y: 310,
-		width: 396,
-		height: 84
+		width: 398,
+		height: 86
 });	
 
 numPad = new ImageView({
