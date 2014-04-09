@@ -38,7 +38,7 @@ firstName = new ImageView ({
 secField = new ImageView ({
 	"image": "images/secfield.png",
 		x: 122,
-		y: 130,
+		y: 310,
 		width: 398,
 		height: 86,
 		opacity: 0
@@ -66,10 +66,40 @@ numPad = new ImageView({
 	x:0,
 	y:1165,
 	width: 640,
-	height: 430
+	height: 520
 });
 
+forgot = new View({
+	x:122,
+	y: 440,
+	height: 30,
+	width: 390,
+	opacity: 0
+})
+
+rememberMe = new ImageView({
+	"image": "images/rememberme.png",
+	x:194,
+	y: 490,
+	height: 52,
+	width: 236,
+	opacity: 0
+})
+
+forgot.html = "Forgot your details?";
+forgot.style.color = "#004634";
+forgot.style.textAlign = "center";
+forgot.style.fontSize = "24px";
+
+
+
+// Fields In Animation //
+
 cardfield.on("click", function() {
+	
+	secField.y = 130;
+	pwdField.y = 230;
+	
 	avatar.animate ({
 		properties: {y:-180},
 		 curve: animationUp,
@@ -79,7 +109,7 @@ cardfield.on("click", function() {
  utils.delay(100, function() {
     revealAnimation(
       firstName,
-      { y: -210,  }
+      { y: -224,  }
     );
   });
   
@@ -93,7 +123,7 @@ cardfield.on("click", function() {
 utils.delay(200, function() {
     revealAnimation(
       numPad,
-      { y: 666,  }
+      { y: 572,  }
     );
   });
   
@@ -104,12 +134,91 @@ utils.delay(200, function() {
     );
   });
   
-   utils.delay(300, function() {
+   utils.delay(400, function() {
     revealAnimation(
       pwdField,
       { y: 330, opacity: 1  }
     );
   });
+    utils.delay(300, function() {
+    revealAnimation(
+      forgot,
+      { opacity: 1  }
+    );
+  });
+  
+      utils.delay(300, function() {
+    revealAnimation(
+      rememberMe,
+      { opacity: 1  }
+    );
+  });
+  
+
+})
+
+// Fields out animation
+
+numPad.on("click", function() {
+
+ utils.delay(300, function() {
+    revealAnimation(
+      avatar,
+      { y: 11,  }
+    );
+  });
+
+ utils.delay(100, function() {
+    revealAnimation(
+      cardfield,
+      { y: 310,  }
+    );
+  });
+  
+
+ utils.delay(300, function() {
+    revealAnimation(
+      firstName,
+      { y: 240,  }
+    );
+  });
+  
+
+
+utils.delay(200, function() {
+    revealAnimation(
+      numPad,
+      { y: 1165,  }
+    );
+  });
+  
+  utils.delay(100, function() {
+    revealAnimation(
+      secField,
+      { y: 310, opacity: 0  }
+    );
+  });
+  
+   utils.delay(00, function() {
+    revealAnimation(
+      pwdField,
+      { y: 310, opacity: 0  }
+    );
+  });
+    utils.delay(300, function() {
+    revealAnimation(
+      forgot,
+      { opacity: 0  }
+    );
+  });
+  
+      utils.delay(300, function() {
+    revealAnimation(
+      rememberMe,
+      { opacity: 0  }
+    );
+  });
+  
 
 })
 
