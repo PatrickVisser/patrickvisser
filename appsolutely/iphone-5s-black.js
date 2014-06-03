@@ -2,7 +2,7 @@
   var defaults = {
 	"backgroundImage": "",
 	"preventBounce": true,
-	"shouldShowAddToHomescreenPrompt": true,
+	"shouldShowAddToHomescreenPrompt": false,
 	"deviceWidth": 385,
 	"deviceHeight": 805,
 	"screenWidth": 320,
