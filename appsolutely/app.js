@@ -37,6 +37,7 @@ myLayers.tab_mkt_off.visible = true;
 myLayers.tab_pric_off.visible = false;
 myLayers.tab_ad_off.visible = true;
 myLayers.toggle_ad_off.visible = true;
+myLayers.toggle_inst.visible = false;
 
 
 myLayers.fields.animate ({
@@ -56,6 +57,7 @@ myLayers.tab_ad_off.on("click", function () {
 myLayers.tab_mkt_off.visible = true;
 myLayers.tab_pric_off.visible = true
 myLayers.tab_ad_off.visible = false;
+myLayers.toggle_inst.visible = false;
 
 myLayers.fields.animate ({
 		properties: {x:-1280},

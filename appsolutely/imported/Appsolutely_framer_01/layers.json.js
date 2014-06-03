@@ -82,23 +82,23 @@ window.__imported__["Appsolutely_framer_01/layers.json.js"] = [
 			"x": 0,
 			"y": 0,
 			"width": 1921,
-			"height": 283
+			"height": 238
 		},
 		"maskFrame": null,
 		"image": {
 			"path": "images/fields.png",
 			"frame": {
 				"x": 0,
-				"y": 362,
+				"y": 391,
 				"width": 1921,
-				"height": 283
+				"height": 238
 			}
 		},
 		"imageType": "png",
 		"children": [
 			
 		],
-		"modification": "1929649735"
+		"modification": "138050848"
 	},
 	{
 		"id": 18,
@@ -106,7 +106,7 @@ window.__imported__["Appsolutely_framer_01/layers.json.js"] = [
 		"layerFrame": {
 			"x": 0,
 			"y": 0,
-			"width": 1921,
+			"width": 640,
 			"height": 1136
 		},
 		"maskFrame": null,
@@ -201,6 +201,31 @@ window.__imported__["Appsolutely_framer_01/layers.json.js"] = [
 		"modification": "1610923214"
 	},
 	{
+		"id": 55,
+		"name": "field_install",
+		"layerFrame": {
+			"x": 0,
+			"y": 0,
+			"width": 640,
+			"height": 1136
+		},
+		"maskFrame": null,
+		"image": {
+			"path": "images/field_install.png",
+			"frame": {
+				"x": 171,
+				"y": 325,
+				"width": 317,
+				"height": 56
+			}
+		},
+		"imageType": "png",
+		"children": [
+			
+		],
+		"modification": "2144047349"
+	},
+	{
 		"id": 28,
 		"name": "toggle_ad",
 		"layerFrame": {
@@ -213,17 +238,17 @@ window.__imported__["Appsolutely_framer_01/layers.json.js"] = [
 		"image": {
 			"path": "images/toggle_ad.png",
 			"frame": {
-				"x": 157,
-				"y": 298,
-				"width": 327,
-				"height": 71
+				"x": 29,
+				"y": 324,
+				"width": 128,
+				"height": 120
 			}
 		},
 		"imageType": "png",
 		"children": [
 			
 		],
-		"modification": "795642709"
+		"modification": "800984526"
 	},
 	{
 		"id": 32,
@@ -238,17 +263,17 @@ window.__imported__["Appsolutely_framer_01/layers.json.js"] = [
 		"image": {
 			"path": "images/toggle_inst.png",
 			"frame": {
-				"x": 156,
-				"y": 298,
-				"width": 329,
-				"height": 71
+				"x": 29,
+				"y": 324,
+				"width": 128,
+				"height": 120
 			}
 		},
 		"imageType": "png",
 		"children": [
 			
 		],
-		"modification": "1180870406"
+		"modification": "1272956836"
 	},
 	{
 		"id": 46,
@@ -263,17 +288,17 @@ window.__imported__["Appsolutely_framer_01/layers.json.js"] = [
 		"image": {
 			"path": "images/toggle_ad_off.png",
 			"frame": {
-				"x": 156,
-				"y": 298,
-				"width": 329,
-				"height": 71
+				"x": 29,
+				"y": 325,
+				"width": 129,
+				"height": 60
 			}
 		},
 		"imageType": "png",
 		"children": [
 			
 		],
-		"modification": "2004211354"
+		"modification": "244766742"
 	},
 	{
 		"id": 38,
@@ -288,16 +313,16 @@ window.__imported__["Appsolutely_framer_01/layers.json.js"] = [
 		"image": {
 			"path": "images/togglelabel.png",
 			"frame": {
-				"x": 24,
-				"y": 304,
-				"width": 102,
-				"height": 48
+				"x": 46,
+				"y": 300,
+				"width": 83,
+				"height": 20
 			}
 		},
 		"imageType": "png",
 		"children": [
 			
 		],
-		"modification": "241194532"
+		"modification": "282732281"
 	}
 ]
