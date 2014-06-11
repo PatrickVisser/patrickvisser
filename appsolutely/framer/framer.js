@@ -1950,6 +1950,9 @@ exports.Layer = (function(_super) {
       this.backgroundColor = null;
       this._setPropertyValue("image", value);
       imageUrl = value;
+      if (Utils.isLocal()) {
+        imageUrl += "?nocache=" + (Date.now());
+      }
       if ((_ref = this.events) != null ? _ref.hasOwnProperty("load" || ((_ref1 = this.events) != null ? _ref1.hasOwnProperty("error") : void 0)) : void 0) {
         loader = new Image();
         loader.name = imageUrl;

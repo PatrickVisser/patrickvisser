@@ -2,15 +2,17 @@ Could not read data file
 bg: Exporting image
 display: Exporting image
 numpad: Exporting image
-fields: Exporting image
 tab_mkt_off: Exporting image
 tab_pric_off: Exporting image
 tab_ad_off: Exporting image
 tab labels: Exporting image
 field_install: Exporting image
+field_adbudget: Exporting image
+field_ads: Exporting image
+field_pricing: Exporting image
+field_rev: Exporting image
 toggle_ad: Exporting image
 toggle_inst: Exporting image
-toggle_ad_off: Exporting image
 togglelabel: Exporting image
-13 views changed
-Success: /var/folders/3p/wm6qbjf554vf5kp2dsykf_dh0000gn/T/118364CC-013C-4D98-AC0E-0B70580A64BF-25296-0001278BB70A3B3A/Appsolutely_framer_01
+15 views changed
+Success: /var/folders/3p/wm6qbjf554vf5kp2dsykf_dh0000gn/T/D50D3350-2915-4B83-B31C-D8BD9A17FA31-59786-00023BA7AA5AC0F1/Appsolutely_framer_02

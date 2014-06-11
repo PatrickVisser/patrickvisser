@@ -1,4 +1,5 @@
-[
+window.__imported__ = window.__imported__ || {};
+window.__imported__["Appsolutely_framer_02/layers.json.js"] = [
 	{
 		"id": 11,
 		"name": "bg",
@@ -22,7 +23,7 @@
 		"children": [
 			
 		],
-		"modification": "1495692288"
+		"modification": "1591209388"
 	},
 	{
 		"id": 8,
@@ -40,14 +41,14 @@
 				"x": 0,
 				"y": 0,
 				"width": 640,
-				"height": 279
+				"height": 262
 			}
 		},
 		"imageType": "png",
 		"children": [
 			
 		],
-		"modification": "1543204619"
+		"modification": "1852444652"
 	},
 	{
 		"id": 6,
@@ -63,41 +64,16 @@
 			"path": "images/numpad.png",
 			"frame": {
 				"x": 0,
-				"y": 770,
+				"y": 742,
 				"width": 640,
-				"height": 366
+				"height": 394
 			}
 		},
 		"imageType": "png",
 		"children": [
 			
 		],
-		"modification": "1543204616"
-	},
-	{
-		"id": 47,
-		"name": "fields",
-		"layerFrame": {
-			"x": 0,
-			"y": 0,
-			"width": 640,
-			"height": 1136
-		},
-		"maskFrame": null,
-		"image": {
-			"path": "images/fields.png",
-			"frame": {
-				"x": 43,
-				"y": 391,
-				"width": 539,
-				"height": 128
-			}
-		},
-		"imageType": "png",
-		"children": [
-			
-		],
-		"modification": "138050848"
+		"modification": "1591209416"
 	},
 	{
 		"id": 18,
@@ -113,7 +89,7 @@
 			"path": "images/tab_mkt_off.png",
 			"frame": {
 				"x": 0,
-				"y": 698,
+				"y": 668,
 				"width": 210,
 				"height": 68
 			}
@@ -122,7 +98,7 @@
 		"children": [
 			
 		],
-		"modification": "1858200068"
+		"modification": "1591209418"
 	},
 	{
 		"id": 22,
@@ -138,7 +114,7 @@
 			"path": "images/tab_pric_off.png",
 			"frame": {
 				"x": 215,
-				"y": 698,
+				"y": 668,
 				"width": 210,
 				"height": 68
 			}
@@ -147,7 +123,7 @@
 		"children": [
 			
 		],
-		"modification": "1180821122"
+		"modification": "1591209421"
 	},
 	{
 		"id": 25,
@@ -163,7 +139,7 @@
 			"path": "images/tab_ad_off.png",
 			"frame": {
 				"x": 430,
-				"y": 698,
+				"y": 668,
 				"width": 210,
 				"height": 68
 			}
@@ -172,7 +148,7 @@
 		"children": [
 			
 		],
-		"modification": "1180821150"
+		"modification": "1591209444"
 	},
 	{
 		"id": 15,
@@ -188,7 +164,7 @@
 			"path": "images/tab labels.png",
 			"frame": {
 				"x": 38,
-				"y": 724,
+				"y": 694,
 				"width": 567,
 				"height": 19
 			}
@@ -197,7 +173,7 @@
 		"children": [
 			
 		],
-		"modification": "1610923214"
+		"modification": "1591209447"
 	},
 	{
 		"id": 55,
@@ -212,17 +188,117 @@
 		"image": {
 			"path": "images/field_install.png",
 			"frame": {
-				"x": 171,
-				"y": 325,
-				"width": 317,
-				"height": 56
+				"x": 82,
+				"y": 284,
+				"width": 387,
+				"height": 69
 			}
 		},
 		"imageType": "png",
 		"children": [
 			
 		],
-		"modification": "2144047349"
+		"modification": "763021267"
+	},
+	{
+		"id": 84,
+		"name": "field_adbudget",
+		"layerFrame": {
+			"x": 0,
+			"y": 0,
+			"width": 640,
+			"height": 1136
+		},
+		"maskFrame": null,
+		"image": {
+			"path": "images/field_adbudget.png",
+			"frame": {
+				"x": 52,
+				"y": 373,
+				"width": 417,
+				"height": 70
+			}
+		},
+		"imageType": "png",
+		"children": [
+			
+		],
+		"modification": "1852444654"
+	},
+	{
+		"id": 88,
+		"name": "field_ads",
+		"layerFrame": {
+			"x": 0,
+			"y": 0,
+			"width": 640,
+			"height": 1136
+		},
+		"maskFrame": null,
+		"image": {
+			"path": "images/field_ads.png",
+			"frame": {
+				"x": 42,
+				"y": 462,
+				"width": 532,
+				"height": 69
+			}
+		},
+		"imageType": "png",
+		"children": [
+			
+		],
+		"modification": "1591209476"
+	},
+	{
+		"id": 98,
+		"name": "field_pricing",
+		"layerFrame": {
+			"x": 0,
+			"y": 0,
+			"width": 640,
+			"height": 1136
+		},
+		"maskFrame": null,
+		"image": {
+			"path": "images/field_pricing.png",
+			"frame": {
+				"x": 45,
+				"y": 373,
+				"width": 558,
+				"height": 159
+			}
+		},
+		"imageType": "png",
+		"children": [
+			
+		],
+		"modification": "795812389"
+	},
+	{
+		"id": 94,
+		"name": "field_rev",
+		"layerFrame": {
+			"x": 0,
+			"y": 0,
+			"width": 640,
+			"height": 1136
+		},
+		"maskFrame": null,
+		"image": {
+			"path": "images/field_rev.png",
+			"frame": {
+				"x": 58,
+				"y": 373,
+				"width": 536,
+				"height": 158
+			}
+		},
+		"imageType": "png",
+		"children": [
+			
+		],
+		"modification": "1591209479"
 	},
 	{
 		"id": 28,
@@ -237,17 +313,17 @@
 		"image": {
 			"path": "images/toggle_ad.png",
 			"frame": {
-				"x": 29,
-				"y": 324,
-				"width": 128,
-				"height": 120
+				"x": 488,
+				"y": 283,
+				"width": 68,
+				"height": 158
 			}
 		},
 		"imageType": "png",
 		"children": [
 			
 		],
-		"modification": "800984526"
+		"modification": "97060348"
 	},
 	{
 		"id": 32,
@@ -262,42 +338,17 @@
 		"image": {
 			"path": "images/toggle_inst.png",
 			"frame": {
-				"x": 29,
-				"y": 324,
-				"width": 128,
-				"height": 120
+				"x": 488,
+				"y": 283,
+				"width": 68,
+				"height": 158
 			}
 		},
 		"imageType": "png",
 		"children": [
 			
 		],
-		"modification": "1272956836"
-	},
-	{
-		"id": 46,
-		"name": "toggle_ad_off",
-		"layerFrame": {
-			"x": 0,
-			"y": 0,
-			"width": 640,
-			"height": 1136
-		},
-		"maskFrame": null,
-		"image": {
-			"path": "images/toggle_ad_off.png",
-			"frame": {
-				"x": 29,
-				"y": 325,
-				"width": 129,
-				"height": 60
-			}
-		},
-		"imageType": "png",
-		"children": [
-			
-		],
-		"modification": "244766742"
+		"modification": "1591209507"
 	},
 	{
 		"id": 38,
@@ -312,16 +363,16 @@
 		"image": {
 			"path": "images/togglelabel.png",
 			"frame": {
-				"x": 46,
-				"y": 300,
-				"width": 83,
-				"height": 20
+				"x": 565,
+				"y": 337,
+				"width": 42,
+				"height": 44
 			}
 		},
 		"imageType": "png",
 		"children": [
 			
 		],
-		"modification": "282732281"
+		"modification": "481690507"
 	}
 ]
