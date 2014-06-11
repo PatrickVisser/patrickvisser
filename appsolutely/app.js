@@ -73,7 +73,7 @@ myLayers.tab_pric_off.on("click", function () {
 	myLayers.tab_mkt_off.visible = true;
 	myLayers.tab_pric_off.visible = false;
 	myLayers.tab_ad_off.visible = true;
-	
+	myLayers.field_install.opacity = 1;
 	myLayers.togglelabel.visible = false;
 	myLayers.toggle_inst.visible = false;
 	myLayers.toggle_ad.visible = false;
